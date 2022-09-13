@@ -17,7 +17,21 @@ namespace AdminUser
             customer.MobileNumber = MobileNumber;
         }
 
-        
+        public void AddMovie()
+        {
+            Console.WriteLine("Add movies in the database");
+
+        }
+
+        public void DeleteMovie()
+        {
+            Console.WriteLine("Delete movies in the database");
+        }
+
+        public void UpdateMovie()
+        {
+            Console.WriteLine("Update movies in the database");
+        }
     }
     
 }
