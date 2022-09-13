@@ -14,6 +14,14 @@ namespace CommonOptions
             Console.WriteLine("Every month new password can be set");
         }
 
+        public void ViewProfile()
+        {
+            Console.WriteLine("User can view the profile");
+        }
 
+        public void EditProfile()
+        {
+            Console.WriteLine("User can edit the profile");
+        }
     }
 }
